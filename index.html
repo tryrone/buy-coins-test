@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./css/style.css" />
+    <meta charset="UTF-8" />
+    <script
+      src="https://kit.fontawesome.com/dfd4e6dc26.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Git-hub</title>
+  </head>
+  <body>
+    <!-- navigation -->
+    <nav>
+      <div class="nav_left">
+        <i class="fab fa-github git_logo"></i>
+
+        <div class="search_wrap">
+          <input
+            type="text"
+            class="git_search"
+            placeholder="Search or jump to..."
+          />
+          <div class="search_icon">/</div>
+        </div>
+
+        <ul class="nav_list">
+          <li class="nav_list_item">Pull requests</li>
+          <li class="nav_list_item">Issues</li>
+          <li class="nav_list_item">Marketplace</li>
+          <li class="nav_list_item">Explore</li>
+        </ul>
+      </div>
+
+      <div class="nav_right">
+        <i class="far fa-bell nav_bell"></i>
+        <div id="plus_cont">
+          <div class="plus_chev">+</div>
+          <i class="fas fa-sort-down"></i>
+        </div>
+        <div class="profile_nav_chev">
+          <img
+            src="https://avatars1.githubusercontent.com/u/22600743?s=460&u=c0328c1aca698e91f4260fa56c9f4ac3271b2757&v=4"
+            alt="tega"
+            class="profile_img"
+          />
+          <i class="fas fa-sort-down"></i>
+        </div>
+      </div>
+
+      <div class="small_screen_nav">
+        <span
+          class="iconify"
+          data-icon="heroicons-outline:menu"
+          data-inline="false"
+        ></span>
+
+        <i class="fab fa-github git_logo"></i>
+
+        <i class="far fa-bell nav_bell"></i>
+      </div>
+    </nav>
+    <!-- navigation end -->
+
+    <!-- tab start -->
+    <div class="tab_wrap">
+      <div class="tab_inner_wrap">
+        <div class="tab_one">
+          <span
+            class="iconify"
+            data-icon="octicon-book-16"
+            data-inline="false"
+          ></span>
+          <p class="tab_text">Overview</p>
+        </div>
+        <div class="tab_active">
+          <span
+            class="iconify"
+            data-icon="octicon:repo-24"
+            data-inline="false"
+          ></span>
+          <p class="tab_text">Repositories</p>
+          <div class="circ">20</div>
+        </div>
+        <div class="tab_one">
+          <span
+            class="iconify"
+            data-icon="octicon:project-24"
+            data-inline="false"
+          ></span>
+          <p class="tab_text">Projects</p>
+        </div>
+        <div class="tab_one">
+          <span
+            class="iconify"
+            data-icon="octicon:package-24"
+            data-inline="false"
+          ></span>
+          <p class="tab_text">Packages</p>
+        </div>
+      </div>
+    </div>
+    <!-- tab ends -->
+
+    <!-- main content start -->
+    <main class="main_wrap">
+      <div class="profile_image_side">
+        <div class="big_profile_img">
+          <img
+            src="https://avatars1.githubusercontent.com/u/22600743?s=460&u=c0328c1aca698e91f4260fa56c9f4ac3271b2757&v=4"
+            alt="tega"
+            class="big_profile"
+          />
+          <div class="smiley">
+            <span
+              class="iconify"
+              data-icon="codicon:smiley"
+              data-inline="false"
+            ></span>
+          </div>
+        </div>
+        <div class="profile_text_cont">
+          <p class="profile_name">Tega Oboraruvwe</p>
+          <p class="profile_username">tryrone</p>
+          <p class="profile_summary">
+            Frontend Developer and User Interface Designer
+          </p>
+        </div>
+      </div>
+      <div class="main_repo_side">
+        <input
+          type="text"
+          class="find_repo"
+          placeholder="Find a repository..."
+        />
+
+        <div class="repo_results">
+          <p class="bold">20</p>
+          results for
+          <p class="bold">public</p>
+          repositories
+        </div>
+        <div class="map_wrap" id="loop">
+          <!-- <div class="repo_content-wrap">
+            <div class="content_title_wrap">
+              <h1 class="content_title" id="content_title">HundredShapes</h1>
+
+              <div class="language_cont">
+                <div class="color_language">
+                  <div class="color" style="background-color: #f1e05a"></div>
+                  Javascript
+                </div>
+                Updated 16 days ago
+              </div>
+            </div>
+
+            <button class="repo_star">
+              <span
+                class="iconify"
+                data-icon="carbon:star-filled"
+                data-inline="false"
+              ></span>
+              Star
+            </button>
+          </div> -->
+        </div>
+      </div>
+    </main>
+    <!-- main content ends -->
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
